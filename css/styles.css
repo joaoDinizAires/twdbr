@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura da janela */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c; /* Cor de fundo escura */
+    color: #ffffff; /* Cor do texto */
+}
+
+header {
+    background-color: #e85f24; /* Cor de destaque laranja */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Cor do texto do menu */
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #e85f24; /* Cor de destaque laranja */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333333; /* Cor de fundo do rodapé */
+    color: #ffffff; /* Cor do texto do rodapé */
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Empurra o rodapé para a parte inferior */
+}
+
+
